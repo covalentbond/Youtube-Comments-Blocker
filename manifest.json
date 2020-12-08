@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Hide Youtube Comments",
+  "version": "0.1.0",
+  "description": "An utility chrome extension to block all the youtube comments and helps you get more focused and productive time on Youtube",
+  "content_scripts": [
+    {
+      "css": [
+        "styles.css"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "matches": [
+        "https://www.youtube.com/*"
+      ]
+    }
+  ]
+}
