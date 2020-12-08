@@ -1,3 +1,7 @@
 #sections{
   display: none !important;
 }
+
+#related { 
+  display: none !important;
+}
